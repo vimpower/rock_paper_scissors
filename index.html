@@ -8,23 +8,49 @@
     <title>Document</title>
 </head>
 <body>
-   <h1>Pick your next move</h1>
+   <h1>Restricted rock paper scissors</h1>
+   <h2></h2>
+   <div class="score">
+       <div class="kaiji">
+           <h1>Kaiji Itou</h1>
+           <img src="images/kaiji.webp" alt="">
+        </div>
+       <div class="stars player">
+           <div class="star"><img src="images/star.png" alt=""></div>
+           <div class="star"><img src="images/star.png" alt=""></div>
+           <div class="star"><img src="images/star.png" alt=""></div>
+        </div>
+        <div class="card"><img src="images/e_card/cardback.png" alt=""></div>
+        <div class="stars computer">
+            <div class="star"><img src="images/star.png" alt=""></div>
+            <div class="star"><img src="images/star.png" alt=""></div>
+            <div class="star"><img src="images/star.png" alt=""></div>
+        </div>
+        <div class="funai">
+            <h1>Joji Funai</h1>
+            <img src="images/funai.webp" alt="">
+        </div>
+    </div>
    <div class="background">
     <div class="moves">
-        <div class="Rock">
+        <div class="Rock move">
+            <p>x4</p>
             <img src="images/rock.jpg" alt="">       
             <!-- <button>Rock</button> -->
          </div>
-         <div class="Paper">
+         <div class="Paper move">
+             <p>x4</p>
              <img src="images/paper.jpg" alt="">
              <!-- <button>Paper</button> -->
          </div>
-         <div class="Sissors">
+         <div class="Scissors move">
+             <p>x4</p>
              <img src="images/sissors.jpg" alt=""> 
              <!-- <button>Sissors</button> -->
          </div>
      </div>
    </div>
+   <audio class="flip" src="sounds/card_flip.mp3"></audio>
    <script src="main.js"></script> 
 </body>
 </html>
